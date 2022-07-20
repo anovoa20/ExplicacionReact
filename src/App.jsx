@@ -56,14 +56,14 @@ function App() {
   );
 }
 
-function CardRazasPerros(props) {
+function CardRazasPerros({ fondo, nombreRaza, imagen }) {
   return (
     <li className="breedCard">
-      <div className={props.fondo}>
+      <div className={fondo}>
         <div className="contenedorImagen">
-          <img src={props.imagen} alt={props.nombreRaza} />
+          <img src={imagen} alt={nombreRaza} />
         </div>
-        <span className="breedTitle">{props.nombreRaza}</span>
+        <span className="breedTitle">{nombreRaza}</span>
       </div>
     </li>
   );
