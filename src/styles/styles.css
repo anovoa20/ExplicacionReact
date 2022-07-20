@@ -117,3 +117,11 @@ ul {
   font-weight: bold;
   font-size: x-large;
 }
+
+.backGroundBrown {
+  background-color: brown;
+}
+
+.backGroundPurple {
+  background-color: rgb(52, 23, 105);
+}
