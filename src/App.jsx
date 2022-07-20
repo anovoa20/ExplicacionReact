@@ -8,12 +8,8 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/index">
-            <Index />
-          </Route>
-          <Route path="/rhodesian">
-            <RhodesianInfoPage />
-          </Route>
+          <Route path="/" element={<Index />} />
+          <Route path="/rhodesian" element={<RhodesianInfoPage />} />
         </Routes>
       </Router>
     </div>
