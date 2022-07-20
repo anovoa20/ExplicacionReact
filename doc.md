@@ -13,6 +13,7 @@
   - git stash > hace reset a los cambios hechos en el stash que no se han agregado (add) o comitiado (commit)
 
 - Proceso para crear este proyecto
+
   - mkdir folderPrueba
   - git init
   - git remote add origin git@github.com:anovoa20/pruebamisiontic.git
@@ -24,3 +25,6 @@
   - git merge instalar-react
   - git remote set-url origin git@github.com:anovoa20/ExplicacionReact.git
   - git push origin master
+
+- Agreagar librerías
+  - yarn add react-router-dom
