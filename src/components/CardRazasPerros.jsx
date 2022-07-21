@@ -1,12 +1,16 @@
+import { Link } from "react-router-dom";
+
 function CardRazasPerros({ fondo, nombreRaza, imagen }) {
   return (
     <li className="breedCard">
-      <div className={fondo}>
-        <div className="contenedorImagen">
-          <img src={imagen} alt={nombreRaza} />
+      <Link to="/rhodesian">
+        <div className={fondo}>
+          <div className="contenedorImagen">
+            <img src={imagen} alt={nombreRaza} />
+          </div>
+          <span className="breedTitle">{nombreRaza}</span>
         </div>
-        <span className="breedTitle">{nombreRaza}</span>
-      </div>
+      </Link>
     </li>
   );
 }
