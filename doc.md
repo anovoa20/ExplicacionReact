@@ -2,6 +2,10 @@
 
 ## Paso a Paso
 
+- Página para descargar íconos
+
+  - https://fontawesome.com/
+
 - Ejecutar
 
   - npx create-react test
