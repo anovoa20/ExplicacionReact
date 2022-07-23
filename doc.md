@@ -27,4 +27,27 @@
   - git push origin master
 
 - Agreagar librerías
+
   - yarn add react-router-dom
+
+- Tipos de variables en JavaScript
+  - `const variableNumerica = 3;`
+  - `const variableTexto = 'Esto es un texto';`
+  - `const variableArray = [1, 2, 3, 4, 5];`
+  - `const variableObjeto = {`
+    ` llave1: 'valor1',`
+    ` llave2: 'valor2',`
+    ` llave3: 'valor3'`
+    `};`
+  - `const listaObjetos = [`
+    ` {`
+    ` llave1: 'valor1',`
+    ` llave2: 'valor2',`
+    ` llave3: 'valor3'`
+    ` },`
+    ` {`
+    ` llave1: 'valor1',`
+    ` llave2: 'valor2',`
+    ` llave3: 'valor3'`
+    ` }`
+    `];`
