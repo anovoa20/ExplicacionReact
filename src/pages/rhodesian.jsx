@@ -1,5 +1,11 @@
+import Layout from "layouts/Layout";
+
 function RhodesianInfoPage() {
-  return <div>esta es la página de rodhesian</div>;
+  return (
+    <Layout>
+      <div>esta es la de rodhesian dentro de rhod jsx</div>
+    </Layout>
+  );
 }
 
 export default RhodesianInfoPage;
